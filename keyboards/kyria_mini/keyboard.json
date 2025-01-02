@@ -1,7 +1,7 @@
 {
-    "manufacturer": "Patchii",
+    "manufacturer": "VeyPatch",
     "keyboard_name": "Kyria mini",
-    "maintainer": "Patchii",
+    "maintainer": "VeyPatch",
     "development_board": "helios",
     "diode_direction": "COL2ROW",
     "features": {
@@ -14,7 +14,7 @@
     },
     "matrix_pins": {
         "direct": [
-                    ["GP0", "GP1", "GP29", "GP28", "GP27"], 
+                    ["GP0", "GP1", "GP29", "GP28", "GP27"],
                     ["GP26", "GP22", "GP20", "GP23", "GP21"],
                     ["GP11", "GP4", "GP2", "GP10", "GP5"],
                     ["GP9", "GP8", "GP7", "GP6"]
@@ -32,7 +32,7 @@
         "matrix_pins": {
             "right": {
                 "direct": [
-                    ["GP0", "GP1", "GP29", "GP28", "GP27"], 
+                    ["GP0", "GP1", "GP29", "GP28", "GP27"],
                     ["GP26", "GP22", "GP20", "GP23", "GP21"],
                     ["GP11", "GP4", "GP2", "GP10", "GP5"],
                     ["GP9", "GP8", "GP7", "GP6"]
@@ -46,9 +46,6 @@
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
-    },
-    "build": {
-        "lto": true
     },
     "layouts": {
         "LAYOUT": {
